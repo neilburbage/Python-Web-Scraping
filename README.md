@@ -27,7 +27,8 @@ Run the scraper:
 |    1 | Walmart    | Retail   |                648 124 |
 |    2 | Amazon.com | Retail   |                574 785 |
 |    3 | ExxonMobil | Energy   |                413 680 |
-Prints the results, saves a CSV (if required)
+
+**Prints the results and saves a CSV (if required)**
 
 ***
 
