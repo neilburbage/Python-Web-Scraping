@@ -11,7 +11,7 @@ Use Beautiful Soup and pandas for an instant DataFrame, (and optional CSV).
 ```git clone git@github.com:neilburbage/Python-Web-Scraping```  
 **Make sure you've added your SSH key first:**     
 ```https://docs.github.com/en/authentication/connecting-to-github-with-ssh```  
-```$ cd Python-Web-Scraping```  
+```cd Python-Web-Scraping```  
 **Create a virtual environment:**     
 ```python -m venv .venv```  
 ```# Linux / macOS: source .venv/bin/activate```     
@@ -20,7 +20,7 @@ Use Beautiful Soup and pandas for an instant DataFrame, (and optional CSV).
 **Install dependencies:**    
 ```pip install -r requirements.txt```  
 **Run the scraper:**    
-```scraper.py```
+```python scraper.py```
 
 ---
 
@@ -28,13 +28,13 @@ Use Beautiful Soup and pandas for an instant DataFrame, (and optional CSV).
 
 <small>
 
-| Rank | Name       | Industry | Revenue (USD millions) |
-| ---: | ---------- | -------- | ---------------------: |
-|    1 | Walmart    | Retail   |                648 124 |
-|    2 | Amazon.com | Retail   |                574 785 |
-|    3 | ExxonMobil | Energy   |                413 680 |
+| Rank | Name               | Industry                   | Revenue (USD millions) |
+| ---- | ------------------ | -------------------------- | ---------------------- |
+| 1    | Walmart            | Retail                     | 680 985                |
+| 2    | Amazon             | Retail and cloud computing | 637 959                |
+| 3    | UnitedHealth Group | Healthcare                 | 400 278                |
 
-**Prints the results and saves a CSV (if required)**
+*Sample scraped 14 October 2026; figures follow Wikipedia's current list.*
 
 </small>
 
@@ -43,9 +43,10 @@ Use Beautiful Soup and pandas for an instant DataFrame, (and optional CSV).
 ### Project layout
 
 ```
-├── scraper.py         # Beautiful Soup → pandas
-├── requirements.txt   # bs4, lxml, pandas, requests
-├── .gitignore         # venv/, __pycache__/
-└── README.md          # you are here
+├── scraper.py            # Beautiful Soup → pandas
+├── us_top_companies.csv  # sample output
+├── requirements.txt      # bs4, lxml, pandas, requests
+├── .gitignore            # venv/, __pycache__/
+└── README.md             # you are here
 ```
 ---

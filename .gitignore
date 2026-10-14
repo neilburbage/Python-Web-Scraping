@@ -8,3 +8,5 @@ __pycache__/
 
 # test files
 test.md
+# Jupyter
+.ipynb_checkpoints/
